@@ -125,7 +125,7 @@ ejoy2d_win_init(JNIEnv * env, jobject asset, int w, int h) {
 	}
 
     lua_pushstring(L, "/sdcard/ejoy2d");
-    lua_pushstring(L, "/sdcard/ejoy2d/ex04.lua");
+    lua_pushstring(L, "/sdcard/ejoy2d/ex03.lua");
 
 	err = lua_pcall(L, 2, 0, tb);
 	if (err) {
